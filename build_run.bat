@@ -1,2 +1,2 @@
 cmake --build build --config release
-build\Release\Raytracing.exe > images/image.ppm
+start /b "" build\Release\Raytracing.exe > image.ppm
